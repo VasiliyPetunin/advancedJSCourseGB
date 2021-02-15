@@ -1,0 +1,52 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    border: 2px solid black;
+}
+
+.btn-cart {
+    margin: 20px;
+    padding: 4px 20px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btn-cart:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn-cart:active {
+    background-color: red;
+    color: white;
+}
+
+main {
+    padding: 15px 50px;
+}
+
+.products {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.product-item {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 2px solid black;
+    padding: 10px 30px;
+}
+
+.product-item h3,
+.product-item p {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 0 0 40px 0;
+}
+
+.product-item h3 {
+    border-bottom: 1px solid black;
+}

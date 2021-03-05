@@ -79,9 +79,18 @@ img {
 .cartItems {
     display: none;
     position: absolute;
+    left: 1100px;
+    top: 75px;
     border: 1px solid #c0c0c040;
+    background-color: purple;
 }
 
 .showCartItems {
     display: flex;
+    flex-direction: column;
+}
+
+.add-item,
+.delete-item {
+    font-size: 24px;
 }

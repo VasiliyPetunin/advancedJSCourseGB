@@ -1,6 +1,7 @@
 
 const API = `https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses`;
 
+
 /*let getRequest = (url, cb) => {
     let xhr = new XMLHttpRequest();
     // window.ActiveXObject -> new ActiveXObject();
@@ -20,8 +21,8 @@ const API = `https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-a
 }; */
 
 
+
 class Products {
-    data = [];
     products = [];
     container = null;
 
@@ -245,6 +246,7 @@ class ProductItem {
 
     
 // }
+
 
 const list = new Products('.products');
 console.log(list.calcSum());
